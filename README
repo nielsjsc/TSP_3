@@ -1,0 +1,16 @@
+Design:
+
+Climb_Chromosome:
+
+I modified the mutate and clone methods, as well as the constructor and destructor.
+
+
+Tournament_deme:
+
+I stored the P value as a member in the class, and changed the select_parent function to select the fittest parent out of P.
+
+
+
+Compiling:
+
+The Makefile is included, compile using make tsp.
